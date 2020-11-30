@@ -54,19 +54,10 @@ h1.header}
 	 width: 100%;
 	 text-align: center;
      }
-ul.nav{
-	color:darkslategray;
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	width: 100%;
-	background-color: #f88b24;
-} 
+
 .nav li{
 	float: left;
 	font-size: 25px;
-	display: inline;
 }  
 .nav li a{
 	display: block;

@@ -23,17 +23,17 @@ h1.header}
 	height: 150px;
 }
 
-.container{
+.turkey{
 	float: right;
 	height: 100px;
 }
 
-.container .image{
+.turkey .image{
 	width: 150px;
 	height: 150px;
 	float: right;
 }
-.container,a.image:before{
+.turkey,a.image:before{
   opacity: 0;
   content: '';
   top: 0px;
@@ -42,7 +42,7 @@ h1.header}
   transition: opacity .25s ease;
 }
 
-.container,a:hover .image:before{
+.turkey,a:hover .image:before{
 	opacity: 1;
 }
 
@@ -50,8 +50,11 @@ h1.header}
 
 .nav{
 	 background-color: #f88b24;
+	 display: inline-block;
+	 width: 100%;
+	 text-align: center;
      }
-.nav ul{
+ul.nav{
 	color:darkslategray;
 	list-style-type: none;
 	margin: 0;
@@ -90,15 +93,12 @@ h2{
 	margin: 20;
 }
 img{
-	width: 200px;
-	height: 200px;
+	width: 175px;
+	height: 175px;
+	
 }
-table.home{
-	width: 100%;
-}
-td.home{
-	box-sizing: border-box;
-}
+
+
 .call-to-action{
 	color:#9a031e;
 	background-color: #94b394;
@@ -162,11 +162,7 @@ h3{
 	padding: .2px;
 	font-size: 1.15em;
 }
-table{
-	margin-bottom: 30px
-        font-size: 1em;
-        width: 100%;
- }
+
 
  /*Contact Us*/
 
@@ -535,5 +531,13 @@ tr.bold{
 	box-sizing: border-box;	
 }
 	
+/*Bootstrap Overides*/
 
-
+.btn-primary:hover,
+.btn-primary{
+	color:#9a031e;
+	background-color: #94b394;
+}
+.btn-primary:hover{
+	background-color: #5f0f40;
+}

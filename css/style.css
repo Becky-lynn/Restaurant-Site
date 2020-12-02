@@ -338,10 +338,10 @@ img.related{
 
 div.h2 span.block{
 	position: absolute;
-	top: 45px;
+	top: 50px;
 	left: 5;
 	right: 0;
-	bottom:35px;
+	bottom:50px;
 	background-color: #5f0f40;
 	z-index: 50;
 }
@@ -498,7 +498,8 @@ tr.bold{
 
 
 /*Two Line Divider*/
-.container{
+
+.two-line{
 	/*max-width: 940px;*/
 	width: 100%;
 	padding-right: 15px;
@@ -506,6 +507,7 @@ tr.bold{
     margin-right: auto;
 	margin-left: auto;
 }
+
 .recommendation-slider-spacing{
 	padding: 2rem 0 1.375rem;
 } 

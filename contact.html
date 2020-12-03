@@ -39,42 +39,84 @@
 </nav>
 
 <main class="help">
-    <div class="h2 feature">
-      <h2 class="page">Contact US</h2>
-      <span class="block"></span>
+
+  <div class="h2 feature">
+   <h2 class="page help">Contact US</h2>
+   <span class="block"></span>
+  </div>
+
+  <div class="container help">
+  
+  <form method="POST" action="https://webhook.site/40ab67be-f734-428e-aa7a-48f505efc54a">
+
+  <div class="row">
+   <div class="col-sm-12 col-md-6 offset-md-3">
+
+    <div class="form-group">
+	 <label for="firstName">First Name:</label>
+	  <input class="form-control" type="text" name="firstName" id="firstName" placeholder="John" required />
+	 </div>
+    </div>
+   </div>
+
+   <div class="row">
+   	<div class="col-sm-12 col-md-6 offset-md-3">
+
+   	 <div class="form-group">
+	  <label for="lastName">Last Name: </label>
+	   <input class="form-control" type="text" name="lastName" id="lastName" placeholder="Doe" required />
+	  </div>
+	 </div>
+	</div>
+
+   <div class="row">
+   	<div class="col-sm-12 col-md-6 offset-md-3">
+
+     <div class="form-group">
+	  <label for="email">Email Address:</label>
+	   <input class="form-control" type="email" name="email" id="email" placeholder="you@email.com" required />
+	 </div>
+	</div>
+   </div>
+
+   <div class="row">
+   	<div class="col-sm-12 col-md-6 offset-md-3">
+
+   	 <div class="form-group">
+	  <label for="phone">Telephone Number:</label>
+	   <input class="form-control" type="phone" name="phone" id="phone" placeholder="123-456-7890" required />
+	  </div>
+	 </div>
     </div>
 
-	<form method="POST" action="https://webhook.site/40ab67be-f734-428e-aa7a-48f505efc54a" class="help">
-		<label for="firstName">First Name:</label>
-		<input type="text" name="firstName" id="firstName" placeholder="John" required />
-		<br/>
+    <div class="row">
+     <div class="col-sm-12 col-md-6 offset-md-3">
 
-		<label for="lastName">Last Name: </label>
-		<input type="text" name="lastName" id="lastName" placeholder="Doe" required />
-		<br/>
+      <div class="form-group">
+	   <label for="comment">Comment:</label>
+	    <textarea class="form-control" name="comment" id="comment" cols="30" rows="10"  placeholder="Add comment here."></textarea>
+	  </div>
+	 </div>
+	</div>
 
-		<label for="email">Email Address:</label>
-		<input type="email" name="email" id="email" placeholder="you@email.com" required />
-		<br/>
+    <div class="row">
+     <div class="col-sm-12 col-md-6 offset-md-3">
 
-		<label for="phone">Telephone Number:</label>
-		<input type="phone" name="phone" id="phone" placeholder="123-456-7890" required />
-		<br/>
+       <button class="btn btn-primary">Send</button>
+     </div>
+    </div>
 
-		<label for="comment">Comment:</label>
-		<textarea name="comment" id="comment" cols="30" rows="10"  placeholder="Add comment here."></textarea>
-		<br/>
+  </form>
+ </div>
+</main>
 
-        <button class="call-to-action">Send</button>
-      </form>
-  </main> 
-  <footer>
+<footer>
    <p>
    <a href="index.html">Home</a>
    <a href="products.html">Products</a>
    <a href="checkout.html">Checkout</a>
    <a href="contact.html">Contact Us</a>
- </p>
+  </p>
  </footer>   
 </body>
 </html>

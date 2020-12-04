@@ -1,21 +1,12 @@
-/*Header*/
-a{
-	text-decoration: none;
-}
+/*Body Style*/
 
 body{
 	background-color: #ffeedb;
     font-family: indie flower;
     }
-.header{
-	justify-content: space-between;
-	align-items: center;
-	width: 100%;
-}
-h1.header{
-    display: inline-block;
-	font-size: 40px;
-} 
+
+/*Turkey Overlay*/
+
 .image img{
 	float: right;
 	width: 150px;
@@ -25,6 +16,7 @@ h1.header{
 .turkey{
 	float: right;
 	height: 100px;
+	width: 25%;
 }
 
 .turkey .image{
@@ -32,6 +24,7 @@ h1.header{
 	height: 150px;
 	float: right;
 }
+
 .turkey,a.image:before{
   opacity: 0;
   content: '';
@@ -45,21 +38,24 @@ h1.header{
 	opacity: 1;
 }
 
-/*NavBar*/
+/*Header*/
 
-@media screen and (max-width: 600px) {
-     .nav li{
-     	width: 10%;
-     	font-size: .5em;
-     	margin: 0;
-     	padding: 0;
-     }
-     h1.header{
-      font-size: 16px;
-      text-align: center; 
-     }
-    
- }
+.header{
+	margin-bottom: 15px;
+}
+
+h1.header{
+    display: inline-block;
+	font-size: 50px;
+	width: 50%;
+	margin-top: 30px
+} 
+
+/*Navagation*/
+
+a{
+	text-decoration: none;
+}
 
 .nav{
 	 background-color: #f88b24;
@@ -71,7 +67,9 @@ h1.header{
 .nav li{
 	float: left;
 	font-size: 25px;
+	width: 25%;
 }  
+
 .nav li a{
 	display: block;
 	text-align: center;
@@ -80,122 +78,71 @@ h1.header{
 	background-color: #f88b24;
 } 
 
+/*Home Page*/  
 
-h1{
-	font-size: 3em;	
-  }
+.home-page{
+	margin-top: 30px
+} 
 
-/*Home Page*/    
-h1,h2,p{
+h1,h2,h3,p{
     color: #5f0f40;
 }
+
 p{
 	font-size: 1em;
+	margin-top: 50px;
 }
+
 h2{
-	font-size: 1.40em;
+	font-size: 1.7em;
 	font-weight: bold;
-	margin: 20;
+	margin: 20 5;
 }
+
+h3{
+	margin-bottom: 3px;
+	margin-top: 15px;
+	padding: 2px;
+	font-size: 1.15em;
+	font-weight: bold;
+}
+
 img{
 	width: 100%;
+	height: 300px;
 }
 
-
-.call-to-action{
-	color:#9a031e;
-	background-color: #94b394;
-	padding: 3px;
-	margin: 6px;
-	text-decoration: none;
-	font-size:1.2em;
-}
-
-/* Columns */
-/* Product Page */
-
-.product{
-	float: right;
-}
-/*.col50{
- 	width: 50%;
- 	display: inline-block;
- 	vertical-align: top;
- 	box-sizing: border-box;
- }*/
-/* Checkout Page */
-  .col25.picture{
- 	width: 25%;
- 	display: inline-block;
- 	vertical-align: top;
- 	box-sizing: border-box;
- 	inline-size: fit-content;
- 	margin: 4 50;
- }
- .col50.cart-details{
-	width: 50%;
- 	display: inline-block;
- 	vertical-align: top;
- 	box-sizing: border-box;
- 	inline-size: fit-content;
- 	margin: 70 50 30;
- 	padding: 5;
-}
-.col25.summary{
-	width: 25%;
- 	display: inline-block;
- 	vertical-align: top;
- 	box-sizing: border-box;
- 	inline-size: fit-content;
- 	margin: 20 55 60;
- 	padding:3;
- 	background-color: #ffe4c3;
- 	box-shadow: 20px 20px 50px 10px #f88b24 inset;
-}
-/*Home Page*/
-
+/*Recipe list on home page*/
 .home{
-	font-size: .85em;
+	font-size: .7em;
 	font-family: 'Ubuntu', sans-serif;
 	color: #5f0f40;
+	margin-top: 50px
 }
 li.home{
 	padding: 1;
 	margin: 1;
 }
-h3{
-	margin-bottom: 3px;
-	margin-top: 3px;
-	padding: .2px;
-	font-size: 1.15em;
+
+/* Product Page */
+
+.product{
+	float: right;
 }
-
-
- /*Contact Us*/
-
- main.help{
- 	margin: 15px 20px;
- }
-
- h2.help{
-    font-size: .85em;
-    padding: 2px;
-    align-content: center;
- }
-
-/*Products Page*/
 
 main.products{
 	margin-top: 30px;
 }
+
 img.hero{
-	width: 95%;
-	height: 75%;
+	width: 100%;
 	border: 3px solid #5f0f40 ;
 }
+
 img.thumbnail:hover{
 	box-shadow: 0 0 2px 1px rgba (0, 140, 186, 0.5);
 }
+
 img.thumbnail{
 	border: 1px solid #ddd;
 	border-radius: 4px;
@@ -204,6 +151,7 @@ img.thumbnail{
 	height: 95px;
 	margin: 4px;
 }
+
 .cartplus{
 	float: right;
 }
@@ -212,6 +160,8 @@ h1.product{
 	font-size: 2em;
 	margin: 0px;
     padding: 1px;
+    width: 100%;
+    text-align: center;
 }
 p.product{
 	color: #9a031e;
@@ -220,10 +170,11 @@ p.product{
     font-family: 'Ubuntu', sans-serif;
     font-size: .90em;
     margin-top: 0;
+    width: 100%;
 }
 .review{
 	text-align: left;
-    margin: 20px 50px 10px;
+    margin: 20px 50px 2px 0;
     display: inline-block;
     padding: 7px;
     float: right;
@@ -241,25 +192,27 @@ a.review{
 }
 .order{
 	font-family: 'Ubuntu', sans-serif;
-	margin: 1px 30px 2p 3px;
+	margin: 1px 30px 2p 30px;
     padding: 5px;
     color: #5f0f40;
     text-align: left;
     display:inline-grid;
 }
+
 label.order{
 	text-align: left;
 	width: 65%;
-	padding-right: 40px;
-	margin-right: 40px;
+	padding-right: 4px;
+	margin: 0 40px 2px 30px;
 }
 select.order{
-	margin: 0 10px 20px 2px;
+	margin: 0 10px 10px 30px;
 	padding: 5px;
 }
 
 .buy{
     padding: 2px;
+    margin-left: 30px;
 }
 
 .add{
@@ -269,15 +222,11 @@ select.order{
 	color:#9a031e;
 	background-color: #94b394;
 }
-.ckout.call-to-action{
-    margin-top: 10px;
-    padding: 15px;
-    font-size: 24px;
-    color:#9a031e;
-	background-color: #94b394;
-	font-family: 'Ubuntu', sans-serif;
-	border: 2px solid #5f0f40;
+
+h2.related{
+	font-size: 1.5em;
 }
+
 
 .btn{
 	border-color: #99301e;
@@ -327,8 +276,8 @@ img.related{
 	width:140px;
 	height:140px;
 	border: 2px solid #5f0f40;
-    margin: 12px 12px;
-    padding: 4px;
+    margin:  5px 35px;
+    padding: 6px;
 }
 
 /*Span Block Feature*/
@@ -366,7 +315,7 @@ div.h2 h2{
 	z-index: 55;
 }
 h2.related{
-    font-size: .85em;
+    font-size: 1.3em;
     padding: 2px;
     align-content: center;
  }
@@ -374,13 +323,13 @@ h2.related{
 /*Related*/
 h3.related{
    font-size: .90em;
-   margin: 1px 1px 7px 15px;
+   margin: 1px 1px 2px 35px;
    color: #5f0f40;
 }
 a.related{
 	font-size: .75em;
 	width: fit-content;
-	margin: 1px  1px  7px 25px;
+	margin: 1px  1px  7px 35px;
 }
 /* Shopping Cart*/
 
@@ -410,6 +359,9 @@ a.picture{
 
 
 /* Cart Details */
+.cart-details{
+	margin-top: 120px;
+}
 
 .title{
 	text-align: center;
@@ -436,16 +388,20 @@ tbody.cart-details{
 
 /*Summary Details*/
 
+
+
 h2.summary{
-	margin-left: 45px;
+	margin-left: 60px;
+	margin-top: 35px;
 }
 
 table.summary{
-	width: 100%;
-	margin: 30;
-	cellpadding: 0;
-	cellspacing: 0;
+	margin: 30px 10px 10px 10px;
 	border: 0;
+}
+
+tr.line{
+     padding-left: 4px;
 }
 tbody.summary{
 	display: table-row-group;
@@ -463,46 +419,57 @@ tbody.summary{
 }
 .total{
 	display: table;
-	float: left;
+	margin-left: 32px;
+	font-size: 1.2em;
 }
+
 table, tbody, tr.summary{
 	width: 100%;
 	text-align: center;
 	padding: 15;
 }
-.total-breakdown, totals{
+.total-cost{
 	font-size: 1.2em;
-	padding-bottom: 5px;
-	background-origin: top;
+	margin-right: 35px;
 }
+.border{
+	border: 2px solid #f88b24;
+	box-shadow: 20px 20px 50px 10px #f88b24 inset;
+	margin-top: 30px;
+}
+
 a.summary{
-	margin: 25 54;
+	margin: 20 0 0 90;
 	padding: 25;
 	font-size: 20px;
 }
 .credit-cards{
 	float: right;
-	/*margin-left: 65;*/
-	padding-right: 10;
 	padding-top: 5;
-	margin-right: 75px;
-	border-collapse: 
+	margin-right: 50px;
+	margin-top: 50px;
 }
+
 .related-products{
 	margin-top: 30px;
 }
-
-/*section.cart{
-	border: 1px solid  #5f0f40;*/
 
 tr.bold{
 	font-size: 1.2em;
 	font-size: bold;
 }
-/*.order-summary{
-	float-right;
-}*/
 
+/*Contact Us*/
+
+ main.help{
+ 	margin: 15px 20px;
+ }
+
+ h2.help{
+    font-size: .85em;
+    padding: 2px;
+    align-content: center;
+ }
 
 /*Two Line Divider*/
 .container{
@@ -518,6 +485,7 @@ tr.bold{
 } 
 .align-items-center{
 	align-items: center;
+	ms-flex-align: center;
 }
 /*.d-flex{
     display: flex;
@@ -538,4 +506,38 @@ tr.bold{
 }
 .btn-primary:hover{
 	background-color: #5f0f40;
+	color: #fff;
 }
+
+/*Media Screen*/
+
+@media screen and (max-width: 600px) {
+
+     .nav li{
+     	width: 25%;
+     	font-size: 13px;
+     }
+     .header{
+     	width: 100%;
+     	margin: 5px;
+     }
+     h1.header{
+      font-size: 25px;
+      width: 100%;
+      margin-right: 5px;
+     }
+ }
+
+ @media screen and (min-width: 700px) and (max-width: 1024px) {
+ 	h1.header{
+ 		font-size: 35px;
+ 		margin-left: 40px;
+ 		margin-bottom: 35px;
+ 	}
+ 	.nav li{
+ 		width: 25%;
+ 	}
+  	
+  } 
+  	
+ 	

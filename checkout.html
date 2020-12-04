@@ -15,9 +15,12 @@
 
 <body>
  <header class="header">
-  <div class="container turkey">
-   <img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ78SBDAaSJ5myapyRTgVOm_K7h-1j4g1P-Q&usqp=CAU">
+
+ <!--Turkey Overlay-->
+  <div class="turkey">
+   <img class="image d-none d-sm-block" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ78SBDAaSJ5myapyRTgVOm_K7h-1j4g1P-Q&usqp=CAU">
   </div>
+
    <h1 class="header">Thanksgiving Family Feast</h1>
  </header>
 
@@ -39,122 +42,124 @@
  </nav>	
 
 <section class="cart">
-<div class="col-sm-4 col-md-4 col-lg-4 picture">
+ <div class="container shopping">
 
- <div class="row shopping">
+  <div class="row shopping">
+
+  <div class="col-sm-4 col-md-4 col-lg-4 picture">
   <h2>Shopping Cart</h2>
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS79KrVVK3KdtQqlifLruiYKMLdBOC3ZCCRHQ&usqp=CAU" alt="Turkey">
  
  	<a href="" class="btn btn-primary review">Save For Later /</a>
     <a href="" class="btn btn-primary review">Remove</a>
- </div>
+  </div>
 
- <div class="col-sm-4 col-md-4 col-lg-4 picture">
-
---><div class="col50 cart-details">
- <div class="title">
-	 <h3 class="title">Oven Roasted Turkey, 16-20 lbs,
+  <div class="col-sm-4 col-md-4 col-lg-4 cart-details">
+   <h3 class="title">Oven Roasted Turkey, 16-20 lbs,
 	 	<br/> 
 	 Delivery November 23rd</h3>
- </div>
 
-<table class="cart-details">	
- <thead class="cart-details">
-  <tr class="cart-details">
-   <th class="cart-details">Price</th>
-   <th class="cart-details">Quanity</th>
-   <th class="cart-details">Item Total</th>
-  </tr>
-</thead>
-<tbody class="cart-details">
-  <tr class="bold">
-	<td>$129.00</td>
-    <td class="button" align="center">
+    <table class="cart-details">	
+     <thead class="cart-details">
+      <tr class="cart-details">
+       <th class="cart-details">Price</th>
+       <th class="cart-details">Quanity</th>
+       <th class="cart-details">Item Total</th>
+      </tr>
+     </thead>
+     <tbody class="cart-details">
+      <tr class="bold">
+	   <td>$129.00</td>
+       <td class="button" align="center">
     	<button>1</button>
-    </td>
-    <td>$142.00</td>
-  </tr>
- </tbody>
- </table>
- </div><!--
+       </td>
+       <td>$142.00</td>
+      </tr>
+     </tbody>
+    </table>
+  </div>
 
---><div class="col25 summary">
+  <div class="col-sm-4 col-md-4 col-lg-4 summary">
+  <div class="border">
    <h2 class="summary">Order Summary</h2>
  	<table class="summary">
 	 <tbody class="summary">
-	 <tr class="summary">
-	  <td class="summary item-list">Subtotal</td>
-	  <td class="summary totals">$129.00</td>
-	 </tr>
-	 <tr class="summary">
-	  <td class="summary item-list">Shipping</td>
-	  <td class="summary totals">$15.00</td>
-	 </tr>
-	  <td class="summary item-list">Tax</td>
-	  <td class="summary totals">$12.00</td>
-	 </tr>
-	 <tr class="summary line">
-	  <td class="summary  total total-breakdown"><strong>Total</strong></td>
-	  <td class="summary total-breakdown"><strong>$156.00</strong></td>
-	 </tr>
-    </tbody>
-   </table> 
-   <a href="checkout.html" class="call-to-action summary">Checkout<i class="fa fa-shopping-cart"></i></a>
-</div>
-</section>
-
-<section>
-<div class=credit-cards>
+	  <tr class="summary">
+	   <td class="summary item-list">Subtotal</td>
+	   <td class="summary totals">$129.00</td>
+	  </tr>
+	  <tr class="summary">
+	   <td class="summary item-list">Shipping</td>
+	   <td class="summary totals">$15.00</td>
+	  </tr>
+	   <td class="summary item-list">Tax</td>
+	   <td class="summary totals">$12.00</td>
+	  </tr>
+	  <tr class="summary line">
+	   <td class="summary  total"><strong>Total</strong></td>
+	   <td class="summary total-cost"><strong>$156.00</strong></td>
+	  </tr>
+     </tbody>
+    </table> 
+   </div>
+     <a href="checkout.html" class="btn btn-primary summary">Checkout<i class="fa fa-shopping-cart"></i></a>
+     <div class=credit-cards>
 	<i class="fa fa-cc-visa" style="font-size:36px"></i>
 	<i class="fa fa-cc-mastercard" style="font-size:36px"></i>
 	<i class="fa fa-cc-amex" style="font-size:36px"></i>
 	<i class="fa fa-cc-discover" style="font-size:36px"></i>
 	<i class="fa fa-cc-paypal" style="font-size:36px"></i>
-</div>
+ </div>
+   </div>
+  </div>
+ </div>
 </section>
-
 
 <section>
  <div class="container two-line">
-  <div class="two-line-decorater d-flex align-items-center recommendation-slider-spacing">
+  <div class="two-line-decorater <!--d-flex--> align-items-center recommendation-slider-spacing">
 	<hr>
 	<h2 class="related">You May Also Like</h2>
 	<hr>
+  </div>
  </div>
-</div>
 </section>
-<aside=related-products>
-<div class=related-products>
-<table class="related">
-		  <tr>
-			<td>
-			 <img class="related" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSFsz0QsXcIEJ9OBG9YYhNZnGa20C_1SVUaLA&usqp=CAU" alt="Cornbread Dressing">
-			 <h3 class="related">Cornbread Stuffing</h3>
-			 <a href="" class="call-to-action related">Product Details</a>
-       	    </td>
-       	    <td>
-       	     <img class="related" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR9hg50zHDoV0jKOJSu0DNL3xuUVr-Glku_jg&usqp=CAU" alt="sweet potato Casserole">
-       	     <h3 class="related">Sweet Potato Casserole</h3>
-       	     <a href="" class="call-to-action related">Product Details</a>
-			</td>
-			<td>
-			 <img class="related" src="https://thewanderlustkitchen.com/wp-content/uploads/2019/08/Bacon-and-Brown-Sugar-Arkansas-Green-Beans-1.jpg" alt="green beans">
-			 <h3 class="related">Arkansas Green Beans</h3>
-			 <a href="" class="call-to-action related">Product Details</a>
-			</td>
-			<td>
-			 <img class="related" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQTMGX4EVGN6B5xyYPELqkeUEcD6hoWE6emrw&usqp=CAU" alt="Yeast Rolls">
-			 <h3 class="related">Homemade Yeast Rolls</h3>
-			 <a href="" class="call-to-action related">Product Details</a>
-			</td>
-			<td>
-			 <img class="related" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ1_Xj0qlHHnDIRD5dSk32vE4-DrV3U-00Cug&usqp=CAU"  alt="Pumpkin Pie">
-			 <h3 class="related">Pumpkin Pie</h3>
-			 <a href="" class="call-to-action related">Product Details</a>
-			</td>
-		   </tr>
-		 </table>
+
+<aside class="related-products">
+ <div class="container related-products">
+ <div class="row related-products">
+
+  <div class="col-sm-2.4 col-md-2.5 col-lg-2.4 related">
+	<img class="related" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSFsz0QsXcIEJ9OBG9YYhNZnGa20C_1SVUaLA&usqp=CAU" alt="Cornbread Dressing">
+	 <h3 class="related">Cornbread Stuffing</h3>
+	  <a href="" class="btn btn-primary related">Product Details</a>
+  </div>
+
+  <div class="col-sm-2.4 col-md-2.5 col-lg-2.4 related">
+    <img class="related" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR9hg50zHDoV0jKOJSu0DNL3xuUVr-Glku_jg&usqp=CAU" alt="sweet potato Casserole">
+     <h3 class="related">Sweet Potato Casserole</h3>
+       <a href="" class="btn btn-primary related">Product Details</a>
+  </div>
+       
+  <div class="col-sm=2.4 col-md-2.5 col-lg-2.4 related">
+   <img class="related" src="https://thewanderlustkitchen.com/wp-content/uploads/2019/08/Bacon-and-Brown-Sugar-Arkansas-Green-Beans-1.jpg" alt="green beans">
+	<h3 class="related">Arkansas Green Beans</h3>
+	 <a href="" class="btn btn-primary related">Product Details</a>
+   </div>
+
+   <div class="col-sm=2.4 col-md-2.5 col-lg-2.4 related">
+	<img class="related" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQTMGX4EVGN6B5xyYPELqkeUEcD6hoWE6emrw&usqp=CAU" alt="Yeast Rolls">
+	 <h3 class="related">Homemade Yeast Rolls</h3>
+	  <a href="" class="btn btn-primary related">Product Details</a>
 	</div>
+
+	<div class="col-sm=2.4 col-md-2.5 col-lg-2.4 related">
+	 <img class="related" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ1_Xj0qlHHnDIRD5dSk32vE4-DrV3U-00Cug&usqp=CAU"  alt="Pumpkin Pie">
+	  <h3 class="related">Pumpkin Pie</h3>
+		<a href="" class="btn btn-primary related">Product Details</a>
+	</div>
+   </div>
+  </div>
 </aside>
 <footer>
    <p>
